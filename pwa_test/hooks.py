@@ -5,6 +5,16 @@ app_description = "PWA Based Frappe Apps"
 app_email = "kyradais@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "dt": "DocType",
+        "filters": [
+            ["module", "=", "PWA Test"]
+        ]
+    }
+]
+
+
 # Apps
 # ------------------
 

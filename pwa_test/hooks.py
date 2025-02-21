@@ -5,14 +5,7 @@ app_description = "PWA Based Frappe Apps"
 app_email = "kyradais@gmail.com"
 app_license = "mit"
 
-fixtures = [
-    {
-        "dt": "Web Page",
-        "filters": [
-            ["module", "=", "PWA Test"]
-        ]
-    }
-]
+app_include_css = "/assets/pwa_test/css/main.css"
 
 # Apps
 # ------------------

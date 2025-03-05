@@ -7,6 +7,10 @@ app_license = "mit"
 
 app_include_css = "/assets/pwa_test/css/main.css"
 
+after_migrate = "pwa_test.utils.move_xml_to_private"
+
+
+
 # Apps
 # ------------------
 
